@@ -839,8 +839,33 @@ body {
     font-size: 0.7rem;
   }
 
+  .profile-nav {
+    padding: 0.9rem 1rem;
+  }
+
+  .profile-logo {
+    font-size: 1.1rem;
+    letter-spacing: 0.15em;
+  }
+
+  .profile-nav-right {
+    gap: 0.6rem;
+  }
+
+  .profile-nav-phone {
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+  }
+
+  .profile-nav-cta {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+  }
+
   .profile-more-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 1.2rem;
   }
 
